@@ -17,7 +17,7 @@
 
 	if(valido) {
 
-		response.sendRedirect("../view/listarUsuarios.jsp");
+		response.sendRedirect("../view/login");
 	} else {
 		response.sendRedirect("../view/loginError.html");
 	}	
