@@ -17,7 +17,7 @@
 
 	if(valido) {
 
-		response.sendRedirect("../view/login");
+		response.sendRedirect("../view/pedido.jsp");
 	} else {
 		response.sendRedirect("../view/loginError.html");
 	}	
